@@ -1,0 +1,7 @@
+.Container{
+    border: 1px solid black;
+    background: rgba(96, 93, 93, 0.727);
+    display:  flex;
+    display: block;
+    padding: 30px;
+}
