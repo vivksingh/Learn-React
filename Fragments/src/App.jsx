@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-//import React from "react";
+import React from "react";
 import Container from "./Components/Container";
 // div should not be used as a container for a react component because it creates an extra element in the dom.
 
@@ -8,7 +8,7 @@ function App() {
   return (
     //<div>
     //<>
-    //<React.Fragment>
+    <React.Fragment>
     <Container>
       <h1>Healthy foods</h1>
       <ul className="list-group">
@@ -20,7 +20,11 @@ function App() {
         ;
       </ul>
       </Container>
-    //</React.Fragment>
+
+      <Container>
+        <p>These are the foods that are healthy</p>
+      </Container>
+    </React.Fragment>
     //</>
     //</div>
   );

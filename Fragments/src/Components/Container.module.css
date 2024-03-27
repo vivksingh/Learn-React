@@ -1,7 +1,8 @@
 .Container{
     border: 1px solid black;
-    background: rgba(96, 93, 93, 0.727);
+    background: rgba(238, 232, 232, 0.727);
     display:  flex;
-    display: block;
+    display: inline-block;
     padding: 30px;
+    margin: 40px;
 }

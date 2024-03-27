@@ -1,8 +1,8 @@
 import PropType from 'prop-types'
 import styles from './Container.module.css'
 
-const Container = (props) => {
-    return <div className ={styles.Container}>{props.children}</div>
+const Container = ({children}) => {
+    return <div className ={styles.Container}>{children}</div>
 }
 
 Container.propTypes = {
